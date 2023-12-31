@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "node index.ts",
+    "deploy": "wrangler deploy --name 96 src/index.tsx --compatibility-date 2023-12-22"
+  },
+  "dependencies": {
+    "1co": "^1.0.9",
+    "2pp": "^0.0.93",
+    "callback-data": "^1.1.1",
+    "grammy": "^1.19.2",
+    "hono": "^3.11.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rian": "next"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "wrangler": "^3.22.1"
+  }
+}

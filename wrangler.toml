@@ -1,0 +1,11 @@
+
+
+main = "index.ts"
+workers_dev = true
+
+compatibility_date = "2023-03-07"
+compatibility_flags = ['nodejs_compat']
+
+kv_namespaces = [
+	{ binding = "DATA", id = "d7c1139691254480a48001fc08a1c240", preview_id = "d7c1139691254480a48001fc08a1c240" }
+]
