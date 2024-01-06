@@ -1,4 +1,4 @@
-
+name = 99
 
 main = "index.ts"
 workers_dev = true
